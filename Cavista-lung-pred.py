@@ -92,24 +92,54 @@ def HomePage():
     st.markdown('<br>', unsafe_allow_html= True)
     st.markdown('<br>', unsafe_allow_html= True)
     st.markdown("<h3 style='color: #2B2A4C;text-align: center; font-family:montserrat'>The Model Features</h3>", unsafe_allow_html=True)
+  
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>FATIGUE</h3>", unsafe_allow_html=True)
-    st.markdown("<p>FATIGUE refers to the biological FATIGUE of the individual, which can have an impact on their susceptibility to diabetes. There are three</p>", unsafe_allow_html=True)
+    st.markdown("<p>Feeling unusually tired or weak, which can be a symptom of advanced lung cancer or a side effect of cancer treatment.There are three</p>", unsafe_allow_html=True)
     st.markdown('<br>', unsafe_allow_html= True)
+  
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Age</h3>", unsafe_allow_html=True)
     st.markdown("<p>The Age field in the Heart Diseases Model denotes the individual's chronological age, a key factor in assessing heart disease risk. Age ranges from 28-77 in our dataset.</p>", unsafe_allow_html=True)
-    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>CHRONIC DISEASE </h3>", unsafe_allow_html=True)
+   
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chronic Disease</h3>", unsafe_allow_html=True)
     st.markdown("<p>CHRONIC DISEASE is a type of fat that is found in your blood. It's essential for building cells and making certain hormones, but having too much CHRONIC DISEASE can be harmful, especially for your heart. Levels between 100-129 mg/dL are considered near optimal, while Levels above 160 mg/dL are considered high.</p>", unsafe_allow_html=True)
-    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>MAXHR </h3>", unsafe_allow_html=True)
-    st.markdown("<p>MAXHR stands for Maximum Heart Rate. It refers to the highest heart rate an individual can achieve during physical exertion. MAXHR is an important metric in assessing cardiovascular health and fitness levels.</p>", unsafe_allow_html=True)
-    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chest pain type</h3>", unsafe_allow_html=True)
+    
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'> Shortness of Breath </h3>", unsafe_allow_html=True)
+    st.markdown("<p>Difficulty breathing or feeling breathless, which can occur as lung tumors grow and obstruct airways.</p>", unsafe_allow_html=True)
+   
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chest pain</h3>", unsafe_allow_html=True)
     st.markdown("<p>Chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood.</p>", unsafe_allow_html=True)
+  
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>ALLERGY</h3>", unsafe_allow_html=True)
     st.markdown("<p>Resting blood pressure refers to the measurement of blood pressure when the body is at rest, typically in a seated or lying position and after a period of relaxation. Normal resting blood pressure typically falls below 120/80 mmHg</p>", unsafe_allow_html=True)
+  
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>GENDER </h3>", unsafe_allow_html=True)
-    st.markdown("<p>GENDER is a term used when doctors are checking the heart's health. They might ask you to exercise on a treadmill or bike while they monitor your heart. They're looking for any unusual changes on a graph called an electrocardiogram (ECG). One thing they look for is if a part of the graph dips down (depression) when you're exercising compared to when you're resting. This dip is called GENDER. If there's a big dip, it could mean your heart isn't getting enough blood, which could signal a problem like blocked arteries.</p>", unsafe_allow_html=True)
+    st.markdown("<p>Lung cancer incidence and mortality rates are higher in men than in women, although the gap has been narrowing in recent years due to changing smoking patterns.</p>", unsafe_allow_html=True)
 
-   
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chest pain</h3>", unsafe_allow_html=True)
+    st.markdown("<p>Chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood.</p>", unsafe_allow_html=True)
 
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chest pain</h3>", unsafe_allow_html=True)
+    st.markdown("<p>Chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood.</p>", unsafe_allow_html=True)
+  
+  
+
+# 5. Yellow Fingers: Nicotine in cigarette smoke can stain fingers and nails yellow, which can be a visible sign of smoking, a major risk factor for lung cancer.
+
+# 6. Smoking: The single most significant risk factor for lung cancer. Smoking tobacco, including cigarettes, cigars, and pipes, greatly increases the risk of developing lung cancer.
+
+# 7. Gender: Lung cancer incidence and mortality rates are higher in men than in women, although the gap has been narrowing in recent years due to changing smoking patterns.
+
+# 8. Alcohol Consuming: Heavy alcohol consumption, particularly when combined with smoking, can further increase the risk of developing lung cancer.
+
+# 10. Coughing: Persistent cough, often with blood or bloody sputum, is a common symptom of lung cancer, especially in its early stages.
+
+# 12. Swallowing Difficulty: People who have a hard time swallowing may choke on their food or liquid when trying to swallow. Dysphagia is the medical name for difficulty swallowing.
+
+
+# 13. Anxiety: Anxiety is an emotion characterized by feelings of tension, worried thoughts, and physical changes like increased blood pressure.
+
+
+  
     # Streamlit app footer
     st.markdown("<p style='text-align: LEFT; font-size: 12px;'>Created with ❤️ by the Orpheus Snipers at the Cavista Hackathon </p>", unsafe_allow_html=True)
 
