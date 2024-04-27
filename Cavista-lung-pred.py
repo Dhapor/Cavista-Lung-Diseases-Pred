@@ -244,9 +244,9 @@ if selected_page == "Modeling":
                 st.toast('Predicted Successfully')
                 st.image('check icon.png', width=100)
                 if predicted >= 0.5:
-                    st.error(f"{patient_name} you may be at high risk of having Diabetes!")
+                    st.error(f"{patient_name} you may be at high risk of Lung Cancer!")
                 else:
-                    st.success(f"{patient_name} is at low risk of Diabetes")
+                    st.success(f"{patient_name} is at low risk of Lung Cancer")
     else:
             st.warning("Please enter the patient's name.")
     
