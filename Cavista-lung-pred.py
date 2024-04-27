@@ -203,11 +203,6 @@ if selected_page == "Modeling":
     ALCOHOL_CONSUMING = st.sidebar.selectbox("ALCOHOL CONSUMING", df['ALCOHOL CONSUMING'].unique())
     CHEST_PAIN = st.sidebar.selectbox("CHEST PAIN", df['CHEST PAIN'].unique())
     SWALLOWING_DIFFICULTY = st.sidebar.selectbox("SWALLOWING DIFFICULTY", df['SWALLOWING DIFFICULTY'].unique())
-
-
-
-    st.markdown("<h2 style='text-align: LEFT; color: #z2B2A4C;'>Input Patient Name</h2>", unsafe_allow_html=True)
-    patient_name = st.text_input("")
   
 
     input_variables = pd.DataFrame([{
@@ -230,6 +225,8 @@ if selected_page == "Modeling":
     st.markdown("<h2 style='text-align: LEFT; color: #z2B2A4C;'>Your Input Appears Here</h2>", unsafe_allow_html=True)
     st.write(input_variables)
 
+    st.markdown("<h2 style='text-align: LEFT; color: #z2B2A4C;'>Input Patient Name</h2>", unsafe_allow_html=True)
+    patient_name = st.text_input("")
 
     if patient_name:
             if st.button('Press To Predict'):
