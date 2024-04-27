@@ -93,7 +93,7 @@ def HomePage():
     st.markdown('<br>', unsafe_allow_html= True)
     st.markdown("<h3 style='color: #2B2A4C;text-align: center; font-family:montserrat'>The Model Features</h3>", unsafe_allow_html=True)
   
-    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>FATIGUE</h3>", unsafe_allow_html=True)
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Fatigue</h3>", unsafe_allow_html=True)
     st.markdown("<p>Feeling unusually tired or weak, which can be a symptom of advanced lung cancer or a side effect of cancer treatment.There are three</p>", unsafe_allow_html=True)
     st.markdown('<br>', unsafe_allow_html= True)
     st.markdown('<br>', unsafe_allow_html= True)
@@ -120,43 +120,48 @@ def HomePage():
     st.markdown('<br>', unsafe_allow_html= True)
     st.markdown('<br>', unsafe_allow_html= True)
   
-    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>ALLERGY</h3>", unsafe_allow_html=True)
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Allergy</h3>", unsafe_allow_html=True)
     st.markdown("<p>Resting blood pressure refers to the measurement of blood pressure when the body is at rest, typically in a seated or lying position and after a period of relaxation. Normal resting blood pressure typically falls below 120/80 mmHg</p>", unsafe_allow_html=True)
     st.markdown('<br>', unsafe_allow_html= True)
     st.markdown('<br>', unsafe_allow_html= True)
   
-    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>GENDER </h3>", unsafe_allow_html=True)
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Gender</h3>", unsafe_allow_html=True)
     st.markdown("<p>Lung cancer incidence and mortality rates are higher in men than in women, although the gap has been narrowing in recent years due to changing smoking patterns.</p>", unsafe_allow_html=True)
     st.markdown('<br>', unsafe_allow_html= True)
     st.markdown('<br>', unsafe_allow_html= True)
   
-    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chest pain</h3>", unsafe_allow_html=True)
-    st.markdown("<p>Chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood.</p>", unsafe_allow_html=True)
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Yellow Fingers</h3>", unsafe_allow_html=True)
+    st.markdown("<p>Nicotine in cigarette smoke can stain fingers and nails yellow, which can be a visible sign of smoking, a major risk factor for lung cancer.</p>", unsafe_allow_html=True)
     st.markdown('<br>', unsafe_allow_html= True)
     st.markdown('<br>', unsafe_allow_html= True)
   
-    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chest pain</h3>", unsafe_allow_html=True)
-    st.markdown("<p>Chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood.</p>", unsafe_allow_html=True)
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Smoking</h3>", unsafe_allow_html=True)
+    st.markdown("<p>The single most significant risk factor for lung cancer. Smoking tobacco, including cigarettes, cigars, and pipes, greatly increases the risk of developing lung cancer.</p>", unsafe_allow_html=True)
     st.markdown('<br>', unsafe_allow_html= True)
     st.markdown('<br>', unsafe_allow_html= True)
 
-  
-  
 
-# 5. Yellow Fingers: Nicotine in cigarette smoke can stain fingers and nails yellow, which can be a visible sign of smoking, a major risk factor for lung cancer.
-
-# 6. Smoking: The single most significant risk factor for lung cancer. Smoking tobacco, including cigarettes, cigars, and pipes, greatly increases the risk of developing lung cancer.
-
-# 7. Gender: Lung cancer incidence and mortality rates are higher in men than in women, although the gap has been narrowing in recent years due to changing smoking patterns.
-
-# 8. Alcohol Consuming: Heavy alcohol consumption, particularly when combined with smoking, can further increase the risk of developing lung cancer.
-
-# 10. Coughing: Persistent cough, often with blood or bloody sputum, is a common symptom of lung cancer, especially in its early stages.
-
-# 12. Swallowing Difficulty: People who have a hard time swallowing may choke on their food or liquid when trying to swallow. Dysphagia is the medical name for difficulty swallowing.
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Alcohol Consuming</h3>", unsafe_allow_html=True)
+    st.markdown("<p>Heavy alcohol consumption, particularly when combined with smoking, can further increase the risk of developing lung cancer.</p>", unsafe_allow_html=True)
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
 
 
-# 13. Anxiety: Anxiety is an emotion characterized by feelings of tension, worried thoughts, and physical changes like increased blood pressure.
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Coughing</h3>", unsafe_allow_html=True)
+    st.markdown("<p>Persistent cough, often with blood or bloody sputum, is a common symptom of lung cancer, especially in its early stages.</p>", unsafe_allow_html=True)
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
+
+
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Swallowing Difficulty</h3>", unsafe_allow_html=True)
+    st.markdown("<p>People who have a hard time swallowing may choke on their food or liquid when trying to swallow. Dysphagia is the medical name for difficulty swallowing.</p>", unsafe_allow_html=True)
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
+
+    st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Anxiety</h3>", unsafe_allow_html=True)
+    st.markdown("<p>Anxiety is an emotion characterized by feelings of tension, worried thoughts, and physical changes like increased blood pressure.</p>", unsafe_allow_html=True)
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
 
 
   
