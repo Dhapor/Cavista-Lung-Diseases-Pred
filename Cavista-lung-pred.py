@@ -74,7 +74,7 @@ import pickle
 from tensorflow.keras.models import load_model
 model = load_model('cavistalungcancerspred.h5')
 
-# st.sidebar.image('pngwing.com.png', width = 200,)
+st.sidebar.image('pngwing.com.png', width = 200,)
 st.sidebar.markdown('<br>', unsafe_allow_html=True)
 selected_page = st.sidebar.radio('Navigation', ['Home', 'Modeling'])
 
@@ -170,6 +170,7 @@ def HomePage():
 
 # Function to define the modeling page content
 def modeling_page():
+    st.markdown("<h1 style='text-align: CENTER; color: #2B2A4C;'>Modelling Section </h1>", unsafe_allow_html=True)
     st.markdown("<h1 style='text-align: LEFT; color: #2B2A4C;'>Dataset Sample</h1>", unsafe_allow_html=True)
     # st.sidebar.markdown('<br><br><br>', unsafe_allow_html= True)
     st.write(ds[['AGE', 'FATIGUE', 'CHRONIC DISEASE', 'SHORTNESS OF BREATH', 'YELLOW_FINGERS', 
