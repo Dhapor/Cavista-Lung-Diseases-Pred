@@ -247,7 +247,7 @@ if selected_page == "Modeling":
                     st.error(f"{patient_name} you may be at high risk of having Diabetes!")
                 else:
                     st.success(f"{patient_name} is at low risk of Diabetes")
-        else:
+    else:
             st.warning("Please enter the patient's name.")
     
     st.markdown('<hr>', unsafe_allow_html=True)
