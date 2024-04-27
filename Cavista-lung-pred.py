@@ -96,30 +96,50 @@ def HomePage():
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>FATIGUE</h3>", unsafe_allow_html=True)
     st.markdown("<p>Feeling unusually tired or weak, which can be a symptom of advanced lung cancer or a side effect of cancer treatment.There are three</p>", unsafe_allow_html=True)
     st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
+
   
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Age</h3>", unsafe_allow_html=True)
     st.markdown("<p>The Age field in the Heart Diseases Model denotes the individual's chronological age, a key factor in assessing heart disease risk. Age ranges from 28-77 in our dataset.</p>", unsafe_allow_html=True)
-   
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
+
+
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chronic Disease</h3>", unsafe_allow_html=True)
     st.markdown("<p>CHRONIC DISEASE is a type of fat that is found in your blood. It's essential for building cells and making certain hormones, but having too much CHRONIC DISEASE can be harmful, especially for your heart. Levels between 100-129 mg/dL are considered near optimal, while Levels above 160 mg/dL are considered high.</p>", unsafe_allow_html=True)
-    
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
+  
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'> Shortness of Breath </h3>", unsafe_allow_html=True)
     st.markdown("<p>Difficulty breathing or feeling breathless, which can occur as lung tumors grow and obstruct airways.</p>", unsafe_allow_html=True)
-   
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
+  
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chest pain</h3>", unsafe_allow_html=True)
     st.markdown("<p>Chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood.</p>", unsafe_allow_html=True)
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
   
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>ALLERGY</h3>", unsafe_allow_html=True)
     st.markdown("<p>Resting blood pressure refers to the measurement of blood pressure when the body is at rest, typically in a seated or lying position and after a period of relaxation. Normal resting blood pressure typically falls below 120/80 mmHg</p>", unsafe_allow_html=True)
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
   
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>GENDER </h3>", unsafe_allow_html=True)
     st.markdown("<p>Lung cancer incidence and mortality rates are higher in men than in women, although the gap has been narrowing in recent years due to changing smoking patterns.</p>", unsafe_allow_html=True)
-
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
+  
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chest pain</h3>", unsafe_allow_html=True)
     st.markdown("<p>Chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood.</p>", unsafe_allow_html=True)
-
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
+  
     st.markdown("<h5 style='color: #2B2A4C;text-align: left; font-family:montserrat'>Chest pain</h3>", unsafe_allow_html=True)
     st.markdown("<p>Chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood.</p>", unsafe_allow_html=True)
+    st.markdown('<br>', unsafe_allow_html= True)
+    st.markdown('<br>', unsafe_allow_html= True)
+
   
   
 
