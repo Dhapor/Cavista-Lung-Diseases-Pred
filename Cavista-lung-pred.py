@@ -206,6 +206,10 @@ if selected_page == "Modeling":
 
 
 
+    st.markdown("<h2 style='text-align: LEFT; color: #z2B2A4C;'>Input Patient Name</h2>", unsafe_allow_html=True)
+    patient_name = st.text_input("")
+
+
 
     st.sidebar.markdown('<br>', unsafe_allow_html= True)
     patient_name = st.text_input("Patient Name")
@@ -233,16 +237,18 @@ if selected_page == "Modeling":
     st.write(input_variables)
 
 
-    if st.button('Press To Predict'):
-        st.markdown("<h4 style = 'color: #2B2A4C; text-align: left; font-family: montserrat '>Model Report</h4>", unsafe_allow_html = True)
-        predicted = model.predict(input_variables)
-        st.toast('Predicted Successfully')
-        st.image('check icon.png', width = 100)
-        st.success(f'Model Predicted {int(np.round(predicted))}')
-        if predicted >= 0.5:
-            st.error('High risk of Lung Cancer!')
+    if patient_name:
+            if st.button('Press To Predict'):
+                st.markdown("<h4 style='color: #2B2A4C; text-align: left; font-family: montserrat;'>Model Report</h4>", unsafe_allow_html=True)
+                predicted = model.predict(input_variables)
+                st.toast('Predicted Successfully')
+                st.image('check icon.png', width=100)
+                if predicted >= 0.5:
+                    st.error(f"{patient_name} you may be at high risk of having Diabetes!")
+                else:
+                    st.success(f"{patient_name} is at low risk of Diabetes")
         else:
-            st.success('Low risk of  Lung Cancer.')
+            st.warning("Please enter the patient's name.")
     
     st.markdown('<hr>', unsafe_allow_html=True)
     
