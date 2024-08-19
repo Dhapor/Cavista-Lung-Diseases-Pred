@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from sklearn.preprocessing import LabelEncoder
-# %pip install h5py graphviz pydot
+# %pip install h5py graphviz pydot...
 
 
 data = pd.read_csv('Lung_Cancer_Dataset.csv')
